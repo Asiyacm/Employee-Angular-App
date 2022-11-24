@@ -10,6 +10,7 @@ import { ViewEmployeeComponent } from './view-employee/view-employee.component';
 import { DeleteEmployeeComponent } from './delete-employee/delete-employee.component';
 import { EditEmployeeComponent } from './edit-employee/edit-employee.component';
 import { RouterModule, Routes } from '@angular/router';
+import { NavigationComponent } from './navigation/navigation.component';
 
 
 const myRoute: Routes=[
@@ -49,7 +50,8 @@ const myRoute: Routes=[
     SearchEmployeeComponent,
     ViewEmployeeComponent,
     DeleteEmployeeComponent,
-    EditEmployeeComponent
+    EditEmployeeComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
