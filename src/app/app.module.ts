@@ -12,7 +12,6 @@ import { EditEmployeeComponent } from './edit-employee/edit-employee.component';
 import { RouterModule, Routes } from '@angular/router';
 
 
-
 const myRoute: Routes=[
   {
     path: "",
@@ -40,6 +39,7 @@ const myRoute: Routes=[
   },
 
 ]
+
 
 @NgModule({
   declarations: [
